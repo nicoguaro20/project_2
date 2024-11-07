@@ -1,13 +1,10 @@
-const { jsToHtml, cardsContainer } = require("./cardsContainer");
+const { jsToHtml } = require("./cardsContainer");
 
-const doneData = (movies) => {
-    cardsContainer.innerHTML = "";
-    movies.forEach((movie) => {
-        const movieElement = jsToHtml(movie);
-        cardsContainer.appendChild(movieElement);
-    });
+const doneData = (respuesta) => {
+    console.log(respuesta);
+    const arrayHtmlCards = respuesta.data.map(jsToHtml);
+    arrayHtmlCards.forEach((htmlMovie) => cardsContainer.appendChild(htmlMovie));
 };
-
 
 module.exports = {
     doneData

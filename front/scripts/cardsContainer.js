@@ -37,8 +37,10 @@ const jsToHtml = (objetoMovie) => {
   liCalificacion.classList.add("liCalificacion");
   liCalificacion.innerText = `Calificación: ${objetoMovie.rate}`;
 
+  
+  button.type = "button";
   button.innerText = "Ver ahora";
-  button.classList.add("btn", "btn-primary", "btn-sm");
+  button.classList.add("btn", "btn-outline-primary" );
 
   div.classList.add("card");
   div.appendChild(img);
