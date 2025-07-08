@@ -29,7 +29,7 @@ Bienvenido a **+PELIS**, un visualizador interactivo de películas que invita a 
 
 ## 📸 Capturas
 
-<img src="ruta/a/la/imagen.png" alt="Captura de pantalla" width="100%" />
+<img src="assets/Visualizador_de_peliculas_1.jpg" alt="Captura de pantalla" width="100%" />
 
 ---
 
